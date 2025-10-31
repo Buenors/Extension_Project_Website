@@ -1,2 +1,2 @@
-# Extension_Project_Website
-Virtual Career Fair Prototype focused on Intercultural Reception for Immigrants and Refugees (Extension Course Project: IAIAIR).
+# Ainda em desenvolvimento
+Só clicar no link para ver o site
