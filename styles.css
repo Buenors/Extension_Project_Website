@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif; /* Define a fonte padrão */
-    background-color: #241d1d; /* Cor de fundo da página */
+    background-color: #002124; /* Cor de fundo da página */
     margin: 0; 
     padding: 0; 
 }
@@ -8,7 +8,8 @@ body {
 header {
     text-align: center; 
     padding: 5px;
-    background-color: rgb(14, 81, 90); 
+    background-color: rgb(14, 81, 90);
+    color:aliceblue 
 }
 
 h1 {
@@ -23,7 +24,9 @@ main {
     max-width: 1200px;
     margin: 20px auto;
     padding-bottom: 90px;
+    color:aliceblue;
 }
+
 footer {
   background-color: rgb(14, 81, 90);
   color: #ccc;
@@ -55,7 +58,7 @@ footer a {
     display: block;
     padding: 10px 20px;
     margin: 5px 10px;
-    background-color: #DDDDDD;
+    background-color: #312b2b;
     color: aquamarine;
     border: 1px solid aquamarine;
     border-radius: 5px;
@@ -71,6 +74,10 @@ footer a {
     border-color: #0056b3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
+}
+
+.fontes{
+    color: aliceblue;
 }
 
 html {
@@ -178,5 +185,4 @@ section button:hover {
 }
 
 */
-
 
