@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>
+        Pesquisa Feira Virtual de Carreiras R.E.D.E.
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>Feira Virtual de Carreiras R.E.D.E.</h1>
+        <h2 class="guias">
+            <a href="home.html">Home</a>
+            <a href="companies.html">Empresas participantes</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Conheça Nosso Projeto</a>
+        </h2>
+    </header>
+        <main>
+        <section id="pesquisa">
+            <h1>Pesquisa das Empresas Participantes</h1>
+            <input type="text" placeholder="Digite algo relacionado à empresa (ex: alimentos, tecnologia)" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id ="resultados-pesquisa">            
+        </section>
+        </main>
+    <footer>
+        <p>2025 - Projeto extensionista UFABC - Professor Acácio</p>
+        <p>Entre em contato pelo <a href="email">email</a></p>
+    </footer>
+    <script src="data.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>
