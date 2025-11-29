@@ -31,6 +31,9 @@ main {
     flex-grow: 1
 }
 
+
+/*-=-=-=-=-= Footer =-=-=-=-=-*/
+
 footer {
   background-color: rgb(14, 81, 90);
   color: #ccc;
@@ -44,6 +47,8 @@ footer a {
   color: aquamarine;
   text-decoration: none;
 }   
+
+/*-=-=-=-=-= - =-=-=-=-=-*/
 
 .guias{
     display: flex;
@@ -79,12 +84,18 @@ footer a {
     color: aliceblue;
 }
 
+.centro {
+    text-align: center;
+    
+}
+
 html {
   scroll-behavior: smooth;
   height: 100%;
 }
 
 /*-=-=-=-=-= Pesquisa =-=-=-=-=-*/
+
 section input {
     width: 30rem;
     border: none; 
@@ -165,31 +176,24 @@ section button:hover {
     margin: 20px auto;
 }
 
+/*-=-=-=-=-= - =-=-=-=-=-*/
+
 /*-=-=-=-=-= Boxes =-=-=-=-=-*/
 
-/* Estilo geral da seção, renomeado de .area-boxes para .boxes */
-/* Note: No seu HTML, a section se chama "boxes", mas no CSS, você usava "area-boxes". 
-   Se a section principal for `section.boxes` no seu HTML, o CSS deve ser: */
 .boxes {
     padding: 40px;
     background-color: #fafafa;
 }
 
-/* apenas o container das boxes (o nome da classe `container` está correto no seu HTML) */
 .container {
     display: grid;
-    /* Ajustei para 4 colunas, já que você tem 4 empresas no JS */
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
-    /* Centraliza o conteúdo dentro da section */
     max-width: 1200px; 
     margin: 0 auto;
 }
 
-/* estilo individual das boxes, renomeado de .card para .empresa-box */
-/* O seu JavaScript está gerando <a> com a classe "empresa-box" */
 .empresa-box {
-    /* Define o box como bloco para preencher a área do grid */
     display: block; 
     background-color: #f0f0f0;
     border-radius: 12px;
@@ -197,8 +201,8 @@ section button:hover {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    text-decoration: none; /* Remove o sublinhado do link */
-    color: #333; /* Cor do texto */
+    text-decoration: none;
+    color: #333; 
 }
 
 .empresa-box:hover {
@@ -206,24 +210,14 @@ section button:hover {
     box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
 }
 
-/* Estilos para a imagem da logo dentro da box */
 .empresa-box img {
-    max-width: 80%; /* Garante que a imagem não seja maior que a box */
+    max-width: 80%; 
     height: auto;
     margin-bottom: 10px;
     border-radius: 8px;
 }
 
-/* Este bloco não é necessário se você tiver removido os estilos flexbox do `main` */
-/* main section.boxes {
-    display: block; 
-    width: 100%;
-} */
 
-.centro {
-    text-align: center;
-    
-}
 
 /*-=-=-=-=-= Background =-=-=-=-=-*/
 
